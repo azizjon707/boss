@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex{ 
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+  
+}
+.item{
+    width: 400px;
+    height: 200px;
+    background: blue;
+    background-image: url(../img/1.jpg);
+    
+    
+}
+
+.container{
+    border: 1px solid black;
+    height: 800px;
+}
+.flex p{
+    padding-top: 180px;
+}
